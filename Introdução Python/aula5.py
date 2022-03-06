@@ -39,8 +39,10 @@ lista_fruta.reverse();
 print(lista_fruta);
 
 #-------------TUPLA imutavel
-tupla = {1, 3, 2, 5, 54};
-print(tupla);
+tupla = (1, 3, 2, 5, 54);
+print(type(tupla), tupla);
 print(len(tupla));
+print(tupla[0]);
+print("----------------");
 tupla_fruta = tuple(lista_fruta);
 print(type(tupla_fruta));
