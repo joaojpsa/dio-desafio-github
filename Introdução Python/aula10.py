@@ -7,7 +7,7 @@ def trab_datetime():
     print(data_recente);
     print(data_recente.strftime("%c"));
     print(data_recente.day); #hora, dia, ano, etc...
-    
+
 def trab_date():
     data_atual = date.today();
     print(data_atual);
