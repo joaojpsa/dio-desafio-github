@@ -22,7 +22,7 @@ print(interseccaoConjuntos);
 print("--------------");
 #----------------DIFERENÇA-----------
 diferencaConjuntos = conjunto.difference(conjunto2);
-print(diferencaConjuntos);
+print("difff", diferencaConjuntos);
 diferencaConjuntos2 = conjunto2.difference(conjunto);
 print(diferencaConjuntos2);
 print("--------------");
